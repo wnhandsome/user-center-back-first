@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://122.51.226.223:3306/user_center?useUnicode=true&characterEncoding=utf-8
+    username: w6n
+    password: w6n666
+  #session失效时间
+  session:
+    timeout: 86400
